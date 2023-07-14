@@ -1,0 +1,98 @@
+.event-view .title {
+    justify-content: space-between;
+}
+
+.event-view {
+    overflowY: scroll;
+    padding-bottom: 5rem;
+}
+
+.title > div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.title button {
+    padding: 0;
+    background: transparent;
+}
+
+.event-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.preview-image {
+    height: clamp(10rem,40vh,20rem);
+    width: clamp(10rem,70vw,20rem);
+}
+
+.event-top button {
+    display: flex;
+    color: var(--FG1);
+    align-items: center;
+    background: transparent;
+    rotate: 270deg;
+    gap: 1rem;
+    justify-content: end;
+    font-size: 1.6rem;
+    padding: 0;
+}
+
+.event-details, .event-details-main, .event-details-main p, .event-about {
+    display: flex;
+    flex-direction: column;
+}
+
+.event-details {
+    gap: 1.3rem;
+}
+
+.event-details-main {
+    gap: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.event-details-main p {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.event-details .tags {
+    flex-direction: row;
+    gap: 0.8rem;
+}
+
+.event-details .tags span {
+    background: var(--BG2);
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.6rem;
+}
+
+.event-about {
+    gap: 0.5rem
+}
+
+.book-ticket {
+    position: fixed;
+    bottom: 2rem;
+    left:5vw;
+    width: 90vw;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 0.8rem 1rem;
+}
+
+.price {
+    font-size: 1.3rem;
+    background: var(--BG2);
+    padding: 0.8rem 1rem;
+    border-radius: 1rem;
+}

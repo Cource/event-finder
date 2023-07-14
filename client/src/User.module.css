@@ -1,0 +1,23 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header {
+    display: flex;
+    flex-directon: row;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    text-decoration: none;
+}
+
+.user {
+    width: 10rem;
+    height: 10rem;
+    background: var(--BG2);
+    padding: 2rem;
+    border-radius: 10rem;
+}

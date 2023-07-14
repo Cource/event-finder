@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --BG1: #1D1128;
+    --BG2: #3A3452;
+    --BG3: #71589A;
+    --TEXT: #F1EEFF;
+    --FG1: #A56EDB;
+}
+
+/* General Styles */
+* {
+    font-family: Atkinson Hyperlegible, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--BG1);
+  color: var(--TEXT);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* Form Styles */
+input[type="text"],
+input[type="time"],
+input[type="email"],
+input[type="password"],
+textarea {
+  padding: 10px;
+  border: none;
+  border-radius: .4rem;
+  background: var(--BG2);
+  color: var(--Text);
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: .4rem;
+  background-color: var(--BG3);
+  color: var(--TEXT);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Event Styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin: 0;
+}
+
+/* Wishlist Styles */
+.empty-wishlist {
+  font-style: italic;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--Text);
+    text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

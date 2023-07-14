@@ -1,0 +1,144 @@
+p {
+    margin: 0;
+    opacity: 1;
+}
+
+#root>div>div {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 5vw;
+    gap: 2rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+.event, .text, .top, .details, .header, form, .tags, .event-heading, .events-list {
+    display: flex;
+}
+
+.header {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header button {
+    padding: 0.8rem 0.925rem;
+    border-radius: 99rem;
+}
+
+.header img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.search {
+    background: var(--BG2);
+    align-items: center;
+    border-radius: 1rem;
+    padding: 0.4rem 0.5rem;
+}
+
+.search>input {
+    width: 100%;
+    margin: 0 !important;
+}
+
+.search>button {
+    background: transparent;
+}
+
+.user-location {
+    color: var(--BG2);
+}
+
+.event-heading {
+    justify-content: space-between;
+    margin-bottom: -1rem;
+}
+
+.events-list {
+    margin: 0 0 2rem 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.event {
+    gap: 1rem;
+    width: 100%;
+    max-width: 28rem;
+    background: var(--BG2);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.event button {
+    background: transparent;
+    padding: 0;
+    height: fit-content;
+}
+
+.text {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.top {
+    justify-content: space-between;
+}
+
+.tags {
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.tags span {
+    background: var(--BG3);
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.5em;
+    width: fit-content;
+}
+
+.details {
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+img {
+    height: 10rem;
+    width: clamp(10rem, 26vw, 20rem);
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+
+.navbar {
+    background: var(--BG3);
+    display: flex;
+    justify-content: center;
+    gap: 20vw;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    left: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.nav-current {
+    color: var(--TEXT) !important;
+}
+
+.navbar a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: var(--BG1);
+}

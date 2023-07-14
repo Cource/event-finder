@@ -1,0 +1,28 @@
+.add-event-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.form-row label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    width: 43vw;
+}
+
+@media (max-width: 600px) {
+    .form-row label {
+	width: 100%;
+    }
+}
+
+.map-container {
+    height: 20rem;
+}

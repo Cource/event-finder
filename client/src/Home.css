@@ -1,0 +1,53 @@
+.college-signup {
+    background: #fff1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -21rem;
+    padding: max(2.5rem,4vw) 4vw;
+}
+
+.college-signup h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.college-signup form {
+  display: flex;
+  flex-direction: column;
+}
+
+.college-signup label {
+  margin-bottom: 5px;
+}
+
+.college-signup input[type="text"],
+.college-signup input[type="email"] {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.college-signup button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.college-signup p {
+    margin-bottom: 2rem;
+}
+
+.hero {
+    height: 64vh;
+}
+
+.hero-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-content button {
+    width: fit-content;
+}
